@@ -1,0 +1,13 @@
+// @use '@/assets/css/variables.scss' as *; // nuxt.config.ts 配置自动导入
+@import 'normalize.css';
+@import 'element-plus/dist/index.css';
+
+.wrapper {
+    margin: 0 auto;
+    width: $contentWidth;
+}
+
+body {
+    font-size: $fontSize14;
+    color: #333;
+}
