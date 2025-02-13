@@ -1,0 +1,87 @@
+$contentWidth: 1248px; // 内容宽
+
+$appHeaderHeight: 36px; // app header 的高度
+$navBarHeight: 84px; // 导航栏高度 68 + 16
+
+// logo
+$logoWidth: 250px;
+$logoHeight: 50px;
+
+$swiperHeight: 480px; // 轮播图高
+$categoryBarHeight: 120px; // 分类栏高
+
+// 商品图片
+$imgWidth: 130px;
+$imgHeight: 150px;
+
+$gridItemHeight: 300px; // 商品图片 item 高度
+
+// appFooter
+$appFooterTop: 82px;
+$appFooterCenter: 360px;
+$appFooterBottom: 58px;
+
+// 字体
+$fontSize16: 16px;
+$fontSize15: 15px;
+$fontSize14: 14px;
+$fontSize12: 12px;
+
+// 字体颜色
+$textTitleColor: #000; // 标题字体颜色
+$textSubColor: #535353; // 导航字体颜色
+$textRedColor: rgb(246, 52, 52); // 红色字体
+$priceColor: #f34141; // 价格字体颜色
+
+// 背景颜色
+$bgColor: #fff; // 白色背景
+$bgGrayColor: #fafafa; // 灰色背景
+
+
+// 背景精灵图 -- 没有这张图片
+@mixin bgSpride() {
+    background-image: url('@/assets/images/spride.png');
+    background-repeat: no-repeat;
+}
+
+// 水平居中的 flex
+@mixin normalFlex($direction: row, $content: space-between) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+}
+
+// 粘性定位
+@mixin elementSticky($top: 0px, $z: 100) {
+    postion: sticky;
+    top: $top;
+    z-index: $z;
+}
+
+// 鼠标hover
+@mixin hoverEffect() {
+    transition: all 0.2s linear;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%);
+}
+
+// 单行字体省略
+@mixin textEllipsis() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// 多行文字省略
+@mixin textMultiEllipsis($line: 2) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $line;
+}
+
+/* 调试专用 */
+// boder
+@mixin border($color: red) {
+    border: 1px solid $color;
+}
