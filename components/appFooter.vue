@@ -80,7 +80,7 @@ defineProps({
     default: () => [
       {
         id: 100,
-        picStr: '/images/f-icon1.svg',
+        picStr: '/images/f-icon1.svg', // 需要将图片放在public目录
         title: '全国联保'
       },
       {
