@@ -55,6 +55,7 @@ defineOptions({ name: 'AppHeader' })
       align-items: center;
       .link {
         margin-right: 24px;
+        color: #fff;
         cursor: pointer;
       }
     }
@@ -64,6 +65,7 @@ defineOptions({ name: 'AppHeader' })
       .link {
         padding: 0 14px;
         border-right: 1px solid #fff;
+        color: #fff;
       }
       .link:last-child {
         border-right: none;
