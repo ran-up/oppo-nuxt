@@ -13,9 +13,23 @@ export default defineNuxtConfig({
       }
     }
   },
+  app: {
+    head: {
+      meta: [
+        {
+          name: 'description',
+          content: 'OPPO专区，官方正品，最新最全的OPPO手机产品以及配件在线抢购！'
+        },
+        {
+          name: 'keywords',
+          content: 'OPPO商城，OPPO专区, OPPO手机，OPPO配件，OPPO, OPPO官网商城'
+        }
+      ],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/logo.png' }],
+      noscript: [{ children: 'Javascript is required' }]
+    }
+  },
   modules: ['@element-plus/nuxt'],
   plugins: ['@/plugins/element-plus.client.js'],
-  devServer: {
-    port: 3001
-  }
+  devServer: { port: 3001 }
 })
