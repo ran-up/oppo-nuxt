@@ -24,7 +24,7 @@ const errorSolve = () => {
   const homeInfo = ref(homeInfoSave.data)
   homeInfoStore.updateNavbar(homeInfo.value.navbars)
   homeInfoStore.updateBanner(homeInfo.value.banners)
-  homeInfoStore.updateCategory(homeInfo.value.category)
+  homeInfoStore.updateCategory(homeInfo.value.categorys)
 }
 if (!data.value) {
   errorSolve()
