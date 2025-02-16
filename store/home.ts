@@ -29,8 +29,8 @@ export interface IBanner {
 }
 // activityList 接口
 export interface IActivityList {
-  type: string | number
-  activityInfo: string
+  type?: string | number
+  activityInfo?: string
 }
 // activityList 类型
 export type activityList = IActivityList[]
@@ -76,7 +76,7 @@ export interface IProductDetailss {
   extendList?: null
   heytapInfo?: null
   activityList?: activityList
-  placeholderLabel: {
+  placeholderLabel?: {
     type?: number | string
     activityInfo?: string
   }
@@ -108,10 +108,11 @@ export type ProductDetailss = IProductDetailss[]
 export interface ICategory {
   id?: string | number
   picStr?: string
+  title?: string
   type?: string | number
   url?: string
   moduleCode?: string
-  productDetailss: ProductDetailss[]
+  productDetailss?: ProductDetailss
   link?: string
 }
 export type Navbars = INavbar[] // navbars 类型
