@@ -29,7 +29,7 @@ export default defineNuxtConfig({
       noscript: [{ children: 'Javascript is required' }]
     }
   },
-  modules: ['@element-plus/nuxt'],
+  modules: ['@element-plus/nuxt', '@pinia/nuxt'],
   plugins: ['@/plugins/element-plus.client.js'],
   devServer: { port: 3001 }
 })
