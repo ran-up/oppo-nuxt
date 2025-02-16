@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    Page: index
+  <div class="wrapper">
+    <base-content />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss"></style>
