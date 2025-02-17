@@ -100,7 +100,7 @@ export interface IProductDetailss {
   commentCount?: null
   commentRate?: null
   interenve?: boolean
-  productDetailLabelss?: []
+  productDetailLabelss?: any[]
 }
 // productDetailss 类型
 export type ProductDetailss = IProductDetailss[]
@@ -127,17 +127,20 @@ export interface IHomeInfo {
 
 export const useHomeInfoStore = defineStore('homeInfo', {
   state: (): IHomeInfo => ({
-    navbars: [],
-    banners: [],
-    categorys: []
+    navbars: [], // 导航数据
+    banners: [], // 轮播图数据
+    categorys: [] // 分类数据
   }),
   actions: {
+    // 更新导航数据
     updateNavbar(payload: Navbars) {
       this.navbars = payload
     },
+    // 更新轮播图数据
     updateBanner(payload: Banners) {
       this.banners = payload
     },
+    // 更新分类数据
     updateCategory(payload: Categorys) {
       this.categorys = payload
     }
