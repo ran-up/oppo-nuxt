@@ -1,8 +1,12 @@
 <template>
   <div class="navbar">
     <div class="wrapper content">
+      <!-- logo -->
       <NuxtLink to="/" class="content-left">
+        <!-- logo图片 -->
         <img src="/logo.png" class="logo" alt="" />
+        <!-- logo title，设置有助于 SEO-->
+        <!-- 设置 z-index 将其设置到页面外 -->
         <h1 class="title">OPPO官网</h1>
       </NuxtLink>
       <ul class="content-center">
@@ -13,12 +17,13 @@
             v-for="item in navbars"
             :key="item.id"
           >
-            <NuxtLink class="link" :to="getPathName(item.title as string)">{{
-              item.title
-            }}</NuxtLink>
+            <NuxtLink class="link" :to="getPathName(item.title as string)">
+              {{ item.title }}
+            </NuxtLink>
           </li>
         </template>
       </ul>
+      <!-- 搜索框组件 -->
       <search class="content-right"></search>
     </div>
   </div>
@@ -33,22 +38,34 @@ defineProps({
     default: () => []
   }
 })
+const route = useRoute()
+const paths: any = reactive({
+  OPPO专区: '/',
+  OnePlus专区: '/one-plus',
+  智能硬件: '/intelligent',
+  服务: '/oppo-service'
+})
 const curTabName = ref<string>('OPPO专区')
 // 切换tab
 const changeTabHandler = (tabName: string) => {
   curTabName.value = tabName
 }
 // 获取路径
+// 这里需要根据传递的title获取具体的路径，通过函数调用，所以返回的一个函数
 const getPathName = computed(() => {
-  // 通过函数调用的，所以需要返回一个函数
   return (title: string) => {
-    const paths: any = {
-      OPPO专区: '/',
-      OnePlus专区: '/one-plus',
-      智能硬件: '/intelligent',
-      服务: '/oppo-service'
-    }
     return paths[title] || '/'
+  }
+})
+// 页面加载完成后，根据当前路径激活当前 tab
+onMounted(() => {
+  const curPath = route.path
+  // 遍历 paths，找到当前路径对应的 tabName
+  for (const [key, value] of Object.entries(paths)) {
+    if (value === curPath) {
+      curTabName.value = key
+      break
+    }
   }
 })
 </script>
