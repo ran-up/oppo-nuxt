@@ -1,7 +1,9 @@
 import type { AsyncData, UseFetchOptions } from '#app'
 
+// 网络请求地址
 const BASE_URL = 'http://codercba.com:9060/oppo-nuxt/api'
-export type methodType = 'GET' | 'POST'
+export type methodType = 'GET' | 'POST' // 请求方式
+// 响应数据接口
 export interface IResponseResult<T> {
   code: number
   data: T
