@@ -1,7 +1,8 @@
 <template>
   <div class="tab-category wrapper">
     <template v-for="item in categorys" :key="item.id">
-      <NuxtLink :to="`/category-detail?type=${item.type}`">
+      <!-- 这里跳转详情页只在 OPPO专区（首页）的分类中进行跳转，其他页面不需要跳转 -->
+      <NuxtLink :to="$route.path === '/' ? `/category-detail?type=${item.type}` : ''">
         <div class="category-item">
           <img class="pic-str" :src="item.picStr" alt="OPPO" />
           <div class="title">{{ item.title }}</div>
@@ -14,16 +15,12 @@
 <script setup lang="ts">
 import type { ICategory } from '~/store/home'
 
-const porps = defineProps({
+defineProps({
   categorys: {
     type: Array<ICategory>,
     default: () => []
   }
 })
-console.log('categorys', porps)
-const handleItemClick = (item: ICategory) => {
-  console.log(item)
-}
 </script>
 
 <style scoped lang="scss">
