@@ -1,7 +1,94 @@
-export default // 20250214211925
-// http://codercba.com:9060/oppo-nuxt/api/home/info
+import img158100 from '@/assets/images/saveImg/homeInfo/158100.webp'
+import img158101 from '@/assets/images/saveImg/homeInfo/158101.webp'
+import img158102 from '@/assets/images/saveImg/homeInfo/158102.webp'
+import img158103 from '@/assets/images/saveImg/homeInfo/158103.webp'
+import img158104 from '@/assets/images/saveImg/homeInfo/158104.webp'
+import img1521_1 from '@/assets/images/saveImg/homeInfo/1521_1.webp'
+import img1521_2 from '@/assets/images/saveImg/homeInfo/1521_2.png'
+import img38686 from '@/assets/images/saveImg/homeInfo/38686.png'
+import img38552 from '@/assets/images/saveImg/homeInfo/38552.png'
+import img38680 from '@/assets/images/saveImg/homeInfo/38680.png'
+import img1514_1 from '@/assets/images/saveImg/homeInfo/1514_1.webp'
+import img1514_2 from '@/assets/images/saveImg/homeInfo/1514_2.png'
+import img15505 from '@/assets/images/saveImg/homeInfo/15505.png'
+import img14444 from '@/assets/images/saveImg/homeInfo/14444.png'
+import img39825 from '@/assets/images/saveImg/homeInfo/39825.png'
+import img39484 from '@/assets/images/saveImg/homeInfo/39484.png'
+import img39485 from '@/assets/images/saveImg/homeInfo/39485.png'
+import img39491 from '@/assets/images/saveImg/homeInfo/39491.png'
+import img14445 from '@/assets/images/saveImg/homeInfo/14445.png'
+import img39489 from '@/assets/images/saveImg/homeInfo/39489.png'
+import img39490 from '@/assets/images/saveImg/homeInfo/39490.png'
+import img1506_1 from '@/assets/images/saveImg/homeInfo/1506_1.webp'
+import img1506_2 from '@/assets/images/saveImg/homeInfo/1506_2.jpg'
+import img42054 from '@/assets/images/saveImg/homeInfo/42054.png'
+import img42053 from '@/assets/images/saveImg/homeInfo/42053.png'
+import img40255 from '@/assets/images/saveImg/homeInfo/40255.png'
+import img42055 from '@/assets/images/saveImg/homeInfo/42055.png'
+import img40259 from '@/assets/images/saveImg/homeInfo/40259.png'
+import img40260 from '@/assets/images/saveImg/homeInfo/40260.png'
+import img40261 from '@/assets/images/saveImg/homeInfo/40261.png'
+import img14657 from '@/assets/images/saveImg/homeInfo/14657.png'
+import img1515_1 from '@/assets/images/saveImg/homeInfo/1515_1.webp'
+import img1515_2 from '@/assets/images/saveImg/homeInfo/1515_2.jpg'
+import img41490 from '@/assets/images/saveImg/homeInfo/41490.png'
+import img41459 from '@/assets/images/saveImg/homeInfo/41459.png'
+import img14440 from '@/assets/images/saveImg/homeInfo/14440.png'
+import img39969 from '@/assets/images/saveImg/homeInfo/39969.png'
+import img40907 from '@/assets/images/saveImg/homeInfo/40907.png'
+import img39968 from '@/assets/images/saveImg/homeInfo/39968.png'
+import img15506 from '@/assets/images/saveImg/homeInfo/15506.png'
+import img14441 from '@/assets/images/saveImg/homeInfo/14441.png'
+import img1523_1 from '@/assets/images/saveImg/homeInfo/1523_1.webp'
+import img1523_2 from '@/assets/images/saveImg/homeInfo/1523_2.png'
+import img42002 from '@/assets/images/saveImg/homeInfo/42002.png'
+import img40829 from '@/assets/images/saveImg/homeInfo/40829.png'
+import img41965 from '@/assets/images/saveImg/homeInfo/41965.png'
+import img14439 from '@/assets/images/saveImg/homeInfo/14439.png'
+import img39971 from '@/assets/images/saveImg/homeInfo/39971.png'
+import img39900 from '@/assets/images/saveImg/homeInfo/39900.png'
+import img42021 from '@/assets/images/saveImg/homeInfo/42021.png'
+import img14436 from '@/assets/images/saveImg/homeInfo/14436.png'
+import img14437 from '@/assets/images/saveImg/homeInfo/14437.png'
+import img1573_1 from '@/assets/images/saveImg/homeInfo/1573_1.png'
+import img1573_2 from '@/assets/images/saveImg/homeInfo/1573_2.png'
+import img32035 from '@/assets/images/saveImg/homeInfo/32035.png'
+import img40018 from '@/assets/images/saveImg/homeInfo/40018.png'
+import img32034 from '@/assets/images/saveImg/homeInfo/32034.png'
+import img36196 from '@/assets/images/saveImg/homeInfo/36196.png'
+import img17905 from '@/assets/images/saveImg/homeInfo/17905.png'
+import img14733 from '@/assets/images/saveImg/homeInfo/14733.png'
+import img14734 from '@/assets/images/saveImg/homeInfo/14734.png'
+import img14735 from '@/assets/images/saveImg/homeInfo/14735.png'
+import img32027 from '@/assets/images/saveImg/homeInfo/32027.png'
+import img32029 from '@/assets/images/saveImg/homeInfo/32029.png'
+import img1574_1 from '@/assets/images/saveImg/homeInfo/1574_1.png'
+import img1574_2 from '@/assets/images/saveImg/homeInfo/1574_2.jpg'
+import img41012 from '@/assets/images/saveImg/homeInfo/41012.png'
+import img32039 from '@/assets/images/saveImg/homeInfo/32039.png'
+import img41013 from '@/assets/images/saveImg/homeInfo/41013.png'
+import img32041 from '@/assets/images/saveImg/homeInfo/32041.png'
+import img14742 from '@/assets/images/saveImg/homeInfo/14742.png'
+import img14744 from '@/assets/images/saveImg/homeInfo/14744.png'
+import img32043 from '@/assets/images/saveImg/homeInfo/32043.png'
+import img31743 from '@/assets/images/saveImg/homeInfo/31743.png'
+import img41756 from '@/assets/images/saveImg/homeInfo/41756.png'
+import img14743 from '@/assets/images/saveImg/homeInfo/14743.png'
+import img41757 from '@/assets/images/saveImg/homeInfo/41757.png'
+import img3030_1 from '@/assets/images/saveImg/homeInfo/3030_1.png'
+import img3030_2 from '@/assets/images/saveImg/homeInfo/3030_2.png'
+import img41938 from '@/assets/images/saveImg/homeInfo/41938.png'
+import img41939 from '@/assets/images/saveImg/homeInfo/41939.png'
+import img41940 from '@/assets/images/saveImg/homeInfo/41940.png'
+import img41941 from '@/assets/images/saveImg/homeInfo/41941.png'
+import img41942 from '@/assets/images/saveImg/homeInfo/41942.png'
+import img41943 from '@/assets/images/saveImg/homeInfo/41943.png'
+import img41944 from '@/assets/images/saveImg/homeInfo/41944.png'
+import img41945 from '@/assets/images/saveImg/homeInfo/41945.png'
+import img41946 from '@/assets/images/saveImg/homeInfo/41946.png'
 
-{
+// http://codercba.com:9060/oppo-nuxt/api/home/info
+export default {
   code: 200,
   data: {
     navbars: [
@@ -89,37 +176,37 @@ export default // 20250214211925
     banners: [
       {
         id: 158100,
-        picStr: '@/assets/images/saveImg/homeInfo/158100.webp',
+        picStr: img158100,
         link: 'https://www.opposhop.cn/cn/web/products/9117.html'
       },
       {
         id: 158101,
-        picStr: '@/assets/images/saveImg/homeInfo/158101.webp',
+        picStr: img158101,
         link: 'https://www.opposhop.cn/cn/web/products/8412.html'
       },
       {
         id: 158102,
-        picStr: '@/assets/images/saveImg/homeInfo/158102.webp',
+        picStr: img158102,
         link: 'https://www.opposhop.cn/cn/web/products/6192.html'
       },
       {
         id: 158103,
-        picStr: '@/assets/images/saveImg/homeInfo/158103.webp',
+        picStr: img158103,
         link: 'https://www.opposhop.cn/cn/web/products/8042.html'
       },
       {
         id: 158104,
-        picStr: '@/assets/images/saveImg/homeInfo/158104.webp',
+        picStr: img158104,
         link: 'https://www.opposhop.cn/cn/web/topic/700100.html'
       }
     ],
     categorys: [
       {
         id: 1521,
-        picStr: '@/assets/images/saveImg/homeInfo/1521_1.webp',
+        picStr: img1521_1,
         title: 'Find N 系列',
         type: 'oppo',
-        url: '@/assets/images/saveImg/homeInfo/1521_2.png',
+        url: img1521_2,
         moduleCode: '700805',
         productDetailss: [
           {
@@ -128,7 +215,7 @@ export default // 20250214211925
             title: 'Find N  星夜',
             secondTitle: '全新折叠旗舰',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202112/2021121506121861b9bceeac5d2.png?_w_=320&_h_=320',
+            url: img38686,
             jsonUrl: '',
             video: '',
             seq: 14,
@@ -204,7 +291,7 @@ export default // 20250214211925
             title: 'Find N  云端',
             secondTitle: '全新折叠旗舰',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202112/2021121505125961b9bc9febd0e.png?_w_=320&_h_=320',
+            url: img38552,
             jsonUrl: '',
             video: '',
             seq: 11,
@@ -280,7 +367,7 @@ export default // 20250214211925
             title: 'Find N  浮光',
             secondTitle: '全新折叠旗舰',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202112/2021121505122461b9bc7c8df76.png?_w_=320&_h_=320',
+            url: img38680,
             jsonUrl: '',
             video: '',
             seq: 8,
@@ -359,11 +446,10 @@ export default // 20250214211925
       },
       {
         id: 1514,
-        picStr:
-          'https://dsfs.oppo.com/archives/202209/2022091305090963204cedb9a43.png?_w_=160&_h_=160&x-oss-process=image/format,webp',
+        picStr: img1514_1,
         title: 'Find X 系列',
         type: 'oppo',
-        url: 'https://dsfs.oppo.com/archives/202203/202203031003116220221bdcdb5.png?_w_=1028&_h_=604',
+        url: img1514_2,
         moduleCode: '700802',
         productDetailss: [
           {
@@ -372,7 +458,7 @@ export default // 20250214211925
             title: 'OPPO Find X5 Pro 12G+256G 水蓝 官方标配',
             secondTitle: '年度影像旗舰',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1648385619580-_-894ea8e295554c0fae5a3918710456bb.png?_w_=320&_h_=320',
+            url: img15505,
             jsonUrl: '',
             video: '',
             seq: 30,
@@ -445,7 +531,7 @@ export default // 20250214211925
             title: 'Find X5 Pro  黑釉',
             secondTitle: '年度影像旗舰',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1646102896004-_-127aab510baa4439ad2e6f11e658900c.png?_w_=320&_h_=320',
+            url: img14444,
             jsonUrl: '',
             video: '',
             seq: 30,
@@ -518,7 +604,7 @@ export default // 20250214211925
             title: 'OPPO Find X5 Pro 水蓝',
             secondTitle: '年度影像旗舰',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1648385619580-_-894ea8e295554c0fae5a3918710456bb.png?_w_=320&_h_=320',
+            url: img39825,
             jsonUrl: '',
             video: '',
             seq: 20,
@@ -591,7 +677,7 @@ export default // 20250214211925
             title: 'Find X5 Pro  白瓷',
             secondTitle: '年度影像旗舰',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1646102912064-_-17d2e5ab3ab549cbb0c6b891b9e91bb0.png?_w_=320&_h_=320',
+            url: img39484,
             jsonUrl: '',
             video: '',
             seq: 15,
@@ -664,7 +750,7 @@ export default // 20250214211925
             title: 'Find X5 Pro 天玑版',
             secondTitle: '搭载天玑 9000 处理器',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1646102926133-_-f4fc4fd7a88941f38f4fad1ad093f3ee.png?_w_=320&_h_=320',
+            url: img39485,
             jsonUrl: '',
             video: '',
             seq: 14,
@@ -737,7 +823,7 @@ export default // 20250214211925
             title: 'Find X5 Pro 天玑版',
             secondTitle: '搭载天玑 9000 处理器',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1646102942242-_-d6a9085c248e4a8b8ed0d794440ff35b.png?_w_=320&_h_=320',
+            url: img39491,
             jsonUrl: '',
             video: '',
             seq: 13,
@@ -810,7 +896,7 @@ export default // 20250214211925
             title: 'Find X5  素黑',
             secondTitle: '哈苏手机影像系统',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1646102667728-_-bf856dc196374d979136e72c10fe9f20.png?_w_=320&_h_=320',
+            url: img14445,
             jsonUrl: '',
             video: '',
             seq: 12,
@@ -883,7 +969,7 @@ export default // 20250214211925
             title: 'Find X5  雅白',
             secondTitle: '哈苏手机影像系统',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1646102689304-_-8678f481bde04dd6a00aaf580737c688.png?_w_=320&_h_=320',
+            url: img39489,
             jsonUrl: '',
             video: '',
             seq: 10,
@@ -956,7 +1042,7 @@ export default // 20250214211925
             title: 'Find X5  镜紫',
             secondTitle: '哈苏手机影像系统',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1646102510733-_-4bacb1b82d9541919a06a153066badc3.png?_w_=320&_h_=320',
+            url: img39490,
             jsonUrl: '',
             video: '',
             seq: 9,
@@ -1028,11 +1114,10 @@ export default // 20250214211925
       },
       {
         id: 1506,
-        picStr:
-          'https://dsfs.oppo.com/archives/202211/202211170211546375d6c2b0b58.png?_w_=160&_h_=160&x-oss-process=image/format,webp',
+        picStr: img1506_1,
         title: 'Reno 系列',
         type: 'oppo',
-        url: 'https://dsfs.oppo.com/archives/202211/2022111701113463751b6af18ba.jpg?_w_=1028&_h_=604',
+        url: img1506_2,
         moduleCode: '700801',
         productDetailss: [
           {
@@ -1041,7 +1126,7 @@ export default // 20250214211925
             title: 'Reno9 明日金',
             secondTitle: '时尚配色，轻薄长续航',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1668563863486-_-82afae7983594aaf82abd62eecc68334.png?_w_=320&_h_=320',
+            url: img42054,
             jsonUrl: '',
             video: '',
             seq: 502,
@@ -1110,7 +1195,7 @@ export default // 20250214211925
             title: 'Reno9 明日金',
             secondTitle: '时尚配色，轻薄长续航',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1668563863486-_-82afae7983594aaf82abd62eecc68334.png?_w_=320&_h_=320',
+            url: img42053,
             jsonUrl: '',
             video: '',
             seq: 501,
@@ -1179,7 +1264,7 @@ export default // 20250214211925
             title: 'Reno9 Pro 微醺',
             secondTitle: '双芯人像，迎光而拍',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1668563920706-_-1ecfc05ff1534240b85a7748c710d0f4.png?_w_=320&_h_=320',
+            url: img40255,
             jsonUrl: '',
             video: '',
             seq: 500,
@@ -1248,7 +1333,7 @@ export default // 20250214211925
             title: 'Reno9 Pro+ 碧海青',
             secondTitle: '双芯人像，迎光而拍',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1668563947243-_-02aec4bb119a4873b6e988e8301103a7.png?_w_=320&_h_=320',
+            url: img42055,
             jsonUrl: '',
             video: '',
             seq: 499,
@@ -1317,7 +1402,7 @@ export default // 20250214211925
             title: 'Reno8 微醺',
             secondTitle: '80W 超级闪充',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1653303393579-_-a6983320bd854fa9906ae34f6b1d13b2.png?_w_=320&_h_=320',
+            url: img40259,
             jsonUrl: '',
             video: '',
             seq: 480,
@@ -1390,7 +1475,7 @@ export default // 20250214211925
             title: 'Reno8 Pro 微醺',
             secondTitle: '骁龙®7 移动平台',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1668754155512-_-b37791b9e5d44bef9be9f982c33d5712.png?_w_=320&_h_=320',
+            url: img40260,
             jsonUrl: '',
             video: '',
             seq: 470,
@@ -1463,7 +1548,7 @@ export default // 20250214211925
             title: 'Reno8 Pro+逍遥青',
             secondTitle: '双芯人像摄影系统',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1652751303950-_-66c6be8ea92f4d9ca087c34723e86721.png?_w_=320&_h_=320',
+            url: img40261,
             jsonUrl: '',
             video: '',
             seq: 460,
@@ -1536,7 +1621,7 @@ export default // 20250214211925
             title: 'Reno7 星雨心愿',
             secondTitle: '6400 万超清主摄',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202111/20211124081158619e3406b8d2d.png?_w_=320&_h_=320',
+            url: img14657,
             jsonUrl: '',
             video: '',
             seq: 390,
@@ -1608,11 +1693,10 @@ export default // 20250214211925
       },
       {
         id: 1515,
-        picStr:
-          'https://dsfs.oppo.com/archives/202209/2022091305091863204cf6d136e.png?_w_=160&_h_=160&x-oss-process=image/format,webp',
+        picStr: img1515_1,
         title: 'K 系列',
         type: 'oppo',
-        url: 'https://dsfs.oppo.com/archives/202209/20220913100936631fec782d27c.jpg?_w_=1028&_h_=604',
+        url: img1515_2,
         moduleCode: '700803',
         productDetailss: [
           {
@@ -1621,7 +1705,7 @@ export default // 20250214211925
             title: 'OPPO K10x 5G',
             secondTitle: '67W 闪速回血',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1662965308041-_-aaecb18ca1164a4b90efa77e0a12df4a.png?_w_=320&_h_=320',
+            url: img41490,
             jsonUrl: '',
             video: '',
             seq: 102,
@@ -1690,7 +1774,7 @@ export default // 20250214211925
             title: 'K10x 5G',
             secondTitle: '67W 闪速回血',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1662965308041-_-aaecb18ca1164a4b90efa77e0a12df4a.png?_w_=320&_h_=320',
+            url: img41459,
             jsonUrl: '',
             video: '',
             seq: 101,
@@ -1759,7 +1843,7 @@ export default // 20250214211925
             title: 'K10 暗夜黑',
             secondTitle: '天玑 8000-MAX',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1650614799969-_-b5dfbb92eae646b2b8eb7799b5ce45c8.png?_w_=320&_h_=320',
+            url: img14440,
             jsonUrl: '',
             video: '',
             seq: 100,
@@ -1823,7 +1907,7 @@ export default // 20250214211925
             title: 'K10 Pro 钛黑',
             secondTitle: '80W 超级闪充',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1649994424283-_-8d32e3f57c4d428e9cfbb84016206384.png?_w_=320&_h_=320',
+            url: img39969,
             jsonUrl: '',
             video: '',
             seq: 40,
@@ -1896,7 +1980,7 @@ export default // 20250214211925
             title: 'K10 活力版 星耀黑',
             secondTitle: '超大存储',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1658738359170-_-ed9553ff4f424a93a2d085ede011b84b.png?_w_=320&_h_=320',
+            url: img40907,
             jsonUrl: '',
             video: '',
             seq: 36,
@@ -1965,7 +2049,7 @@ export default // 20250214211925
             title: 'K9x 银紫超梦',
             secondTitle: '90Hz 智控电竞屏',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202112/2021122004123361c0398953eac.png?_w_=320&_h_=320',
+            url: img39968,
             jsonUrl: '',
             video: '',
             seq: 35,
@@ -2029,7 +2113,7 @@ export default // 20250214211925
             title: 'K9 Pro 黑曜武士',
             secondTitle: '120Hz 电竞屏',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1634117582894-_-7425a80b5fbd4772a876b62125427f52.png?_w_=320&_h_=320',
+            url: img15506,
             jsonUrl: '',
             video: '',
             seq: 11,
@@ -2093,7 +2177,7 @@ export default // 20250214211925
             title: 'K9s 黑曜武士',
             secondTitle: 'X 轴线性马达',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202111/202111080511576188ece9380db.png?_w_=320&_h_=320',
+            url: img14441,
             jsonUrl: '',
             video: '',
             seq: 9,
@@ -2159,11 +2243,10 @@ export default // 20250214211925
       },
       {
         id: 1523,
-        picStr:
-          'https://dsfs.oppo.com/archives/202211/202211140611236372148711c27.png?_w_=160&_h_=160&x-oss-process=image/format,webp',
+        picStr: img1523_1,
         title: 'A 系列',
         type: 'oppo',
-        url: 'https://dsfs.oppo.com/archives/202211/202211150911346372e5de755eb.png?_w_=1028&_h_=604',
+        url: img1523_2,
         moduleCode: '700804',
         productDetailss: [
           {
@@ -2172,7 +2255,7 @@ export default // 20250214211925
             title: 'A1 Pro 朝雨蓝',
             secondTitle: '1 亿高像素，超窄双曲屏',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1668472650480-_-91929640646745ac9838b4f8587b2f7b.png?_w_=320&_h_=320',
+            url: img42002,
             jsonUrl: '',
             video: '',
             seq: 1001,
@@ -2249,7 +2332,7 @@ export default // 20250214211925
             title: 'A97 静夜黑',
             secondTitle: '5000mAh 大电池',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1658461599240-_-f71be6a1affe44ed9e870de1b42590d9.png?_w_=320&_h_=320',
+            url: img40829,
             jsonUrl: '',
             video: '',
             seq: 1000,
@@ -2326,7 +2409,7 @@ export default // 20250214211925
             title: 'A58 静海蓝',
             secondTitle: '90Hz 刷新率，5000 万像素',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1667790581508-_-0e850e763b4b4c73beb6d66c179c25e4.png?_w_=320&_h_=320',
+            url: img41965,
             jsonUrl: '',
             video: '',
             seq: 999,
@@ -2399,7 +2482,7 @@ export default // 20250214211925
             title: 'A96  琉璃幻彩',
             secondTitle: '高通骁龙 695，双子星环呼吸灯',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202201/2022010504015661d552900b7d2.png?_w_=320&_h_=320',
+            url: img14439,
             jsonUrl: '',
             video: '',
             seq: 998,
@@ -2472,7 +2555,7 @@ export default // 20250214211925
             title: 'A55s 轻快蓝',
             secondTitle: '双卡双待双模 5G',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1650543065557-_-9c2c1408a4cd444b9e32f279bb588c9d.png?_w_=320&_h_=320',
+            url: img39971,
             jsonUrl: '',
             video: '',
             seq: 800,
@@ -2536,7 +2619,7 @@ export default // 20250214211925
             title: 'A57 深海蓝',
             secondTitle: '环绕式立体双扬声',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1649409496844-_-4dd2b9df89f440d5819b148ab17e4b3b.png?_w_=320&_h_=320',
+            url: img39900,
             jsonUrl: '',
             video: '',
             seq: 500,
@@ -2605,7 +2688,7 @@ export default // 20250214211925
             title: 'A56 云烟蓝',
             secondTitle: '5000mAh 大电池，双模 5G',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202112/2021121005124961b31b3de0cc6.png?_w_=320&_h_=320',
+            url: img42021,
             jsonUrl: '',
             video: '',
             seq: 14,
@@ -2674,7 +2757,7 @@ export default // 20250214211925
             title: 'A36 晴川蓝',
             secondTitle: '256GB 大内存，畅快轻体验',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202201/2022010907013361dacc4520b9a.png?_w_=320&_h_=320',
+            url: img14436,
             jsonUrl: '',
             video: '',
             seq: 13,
@@ -2743,7 +2826,7 @@ export default // 20250214211925
             title: 'A93s 白桃汽水',
             secondTitle: '5000mAh 大电池，90Hz 刷新率',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1634125162024-_-b017b06d776840cca3be7223bb604b28.png?_w_=320&_h_=320',
+            url: img14437,
             jsonUrl: '',
             video: '',
             seq: 11,
@@ -2806,11 +2889,10 @@ export default // 20250214211925
       },
       {
         id: 1573,
-        picStr:
-          'https://dsfs.oppo.com/archives/202208/2022081010084862f3c6f4b1011.png?_w_=320&_h_=320',
+        picStr: img1573_1,
         title: '智能声学',
         type: 'air',
-        url: 'https://dsfs.oppo.com/archives/202208/2022080309082262e9d4227fe4c.png?_w_=514&_h_=302',
+        url: img1573_2,
         moduleCode: '701101',
         productDetailss: [
           {
@@ -2819,7 +2901,7 @@ export default // 20250214211925
             title: 'OPPO Enco Air2i 真无线耳机 曜石黑',
             secondTitle: '10mm 超大动圈',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1660014980814-_-0e8fbdb287464e3cb046e8f1e894a6a6.png?_w_=320&_h_=320',
+            url: img32035,
             jsonUrl: '',
             video: '',
             seq: 1200,
@@ -2892,7 +2974,7 @@ export default // 20250214211925
             title: 'OPPO Enco Air2 Pro',
             secondTitle: 'ANC 主动降噪',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1666271581983-_-5db38f5f3c524dfca6a61772edfee478.png?_w_=320&_h_=320',
+            url: img40018,
             jsonUrl: '',
             video: '',
             seq: 1180,
@@ -2965,7 +3047,7 @@ export default // 20250214211925
             title: 'OPPO Enco X2 旗舰新品真无线降噪耳机 凝霜白 有线充版',
             secondTitle: '45dB 降噪深度',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1652779670822-_-dcc2730aa32d4df08944c318529bc4c3.png?_w_=320&_h_=320',
+            url: img32034,
             jsonUrl: '',
             video: '',
             seq: 1150,
@@ -3038,7 +3120,7 @@ export default // 20250214211925
             title: 'OPPO Enco Air2 新品真无线蓝牙耳机 晨雾白',
             secondTitle: '3.5 g 超轻无感',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202201/2022010109015161cfb51fbd1bb.png?_w_=320&_h_=320',
+            url: img36196,
             jsonUrl: '',
             video: '',
             seq: 1100,
@@ -3111,7 +3193,7 @@ export default // 20250214211925
             title: 'OPPO Enco Free2i',
             secondTitle: '42dB 降噪深度',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202111/20211123091156619c4234dc39b.png?_w_=600&_h_=600',
+            url: img17905,
             jsonUrl: '',
             video: '',
             seq: 1100,
@@ -3187,7 +3269,7 @@ export default // 20250214211925
             title: 'OPPO Enco Air 灵动版',
             secondTitle: '24小时超长续航',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202104/20210428090452608961e8a3f62.png?_w_=320&_h_=320',
+            url: img14733,
             jsonUrl: '',
             video: '',
             seq: 1000,
@@ -3256,7 +3338,7 @@ export default // 20250214211925
             title: 'OPPO Enco X 降噪耳机',
             secondTitle: '双重主动降噪',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202103/20210311070355604a041f512d9.png?_w_=320&_h_=320',
+            url: img14734,
             jsonUrl: '',
             video: '',
             seq: 900,
@@ -3333,7 +3415,7 @@ export default // 20250214211925
             title: 'OPPO Enco Air 灵动版',
             secondTitle: '24小时超长续航',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202110/202110090110536161272da9c22.png?_w_=300&_h_=300',
+            url: img14735,
             jsonUrl: '',
             video: '',
             seq: 800,
@@ -3402,7 +3484,7 @@ export default // 20250214211925
             title: 'OPPO Enco Free2 蓝牙耳机',
             secondTitle: '低延迟双传 | 个性化降噪',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202105/2021051807055260a3a78892a2e.png?_w_=320&_h_=320',
+            url: img32027,
             jsonUrl: '',
             video: '',
             seq: 700,
@@ -3479,7 +3561,7 @@ export default // 20250214211925
             title: 'OPPO Enco M32 无线耳机',
             secondTitle: '充电10分钟 | 听歌20小时',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202112/2021122702122261c95892df6e5.png?_w_=320&_h_=320',
+            url: img32029,
             jsonUrl: '',
             video: '',
             seq: 600,
@@ -3547,11 +3629,10 @@ export default // 20250214211925
       },
       {
         id: 1574,
-        picStr:
-          'https://dsfs.oppo.com/archives/202208/2022081010085762f3c6fdc22eb.png?_w_=320&_h_=320',
+        picStr: img1574_1,
         title: '智能穿戴',
         type: 'watch',
-        url: 'https://dsfs.oppo.com/archives/202208/2022081704083562fca09bca340.jpg?_w_=1028&_h_=604',
+        url: img1574_2,
         moduleCode: '701102',
         productDetailss: [
           {
@@ -3560,7 +3641,7 @@ export default // 20250214211925
             title: 'OPPO Watch 3 系列',
             secondTitle: '旗舰双芯片',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1660129796666-_-3ad0588060dd42a09f45dd7b11c8277d.png?_w_=320&_h_=320',
+            url: img41012,
             jsonUrl: '',
             video: '',
             seq: 1200,
@@ -3637,7 +3718,7 @@ export default // 20250214211925
             title: 'OPPO Watch SE 全智能手表 薄雾紫',
             secondTitle: '多彩表盘',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1666060870330-_-0e088ef5b4cc4c75851d1b49c26f9d98.png?_w_=320&_h_=320',
+            url: img32039,
             jsonUrl: '',
             video: '',
             seq: 1190,
@@ -3714,7 +3795,7 @@ export default // 20250214211925
             title: 'OPPO 手环 2 系列新品手环',
             secondTitle: '全屏 全面升级',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1660532261710-_-830f09a8a64d440faa1317247a1ab8b9.png?_w_=320&_h_=320',
+            url: img41013,
             jsonUrl: '',
             video: '',
             seq: 1190,
@@ -3791,7 +3872,7 @@ export default // 20250214211925
             title: 'OPPO Watch 2  蓝牙版',
             secondTitle: '双擎长续航',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202107/2021072705071360ffd0f9aca75.png?_w_=320&_h_=320',
+            url: img32041,
             jsonUrl: '',
             video: '',
             seq: 1100,
@@ -3868,7 +3949,7 @@ export default // 20250214211925
             title: 'OPPO Watch 2 42mm eSIM 版',
             secondTitle: '双擎长续航',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202107/2021072705075360ffd0e53aefc.png?_w_=320&_h_=320',
+            url: img14742,
             jsonUrl: '',
             video: '',
             seq: 900,
@@ -3941,7 +4022,7 @@ export default // 20250214211925
             title: 'OPPO Watch 2  46mm eSIM 版',
             secondTitle: '双擎长续航',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202107/2021072705072960ffd109ce551.png?_w_=320&_h_=320',
+            url: img14744,
             jsonUrl: '',
             video: '',
             seq: 700,
@@ -4018,7 +4099,7 @@ export default // 20250214211925
             title: 'OPPO Watch Free',
             secondTitle: '全场景睡眠监测',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202109/2021091609092461434d44b0707.png?_w_=320&_h_=320',
+            url: img32043,
             jsonUrl: '',
             video: '',
             seq: 660,
@@ -4091,7 +4172,7 @@ export default // 20250214211925
             title: 'OPPO Watch 2 ECG 版',
             secondTitle: '双擎长续航',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202109/20210914100952614007f4209e5.png?_w_=320&_h_=320',
+            url: img31743,
             jsonUrl: '',
             video: '',
             seq: 650,
@@ -4168,7 +4249,7 @@ export default // 20250214211925
             title: 'OPPO Watch 1 手表 46mm 琉金',
             secondTitle: 'eSIM独立通信|运动健康伴侣',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1636362837311-_-d11109ddb9da451a969083f642f00bbb.png?_w_=320&_h_=320',
+            url: img41756,
             jsonUrl: '',
             video: '',
             seq: 610,
@@ -4245,7 +4326,7 @@ export default // 20250214211925
             title: 'OPPO 手环 活力版 蓝色风暴',
             secondTitle: '微信支付宝双支付',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202104/2021042709043060876f8a7523d.png?_w_=320&_h_=320',
+            url: img14743,
             jsonUrl: '',
             video: '',
             seq: 600,
@@ -4318,7 +4399,7 @@ export default // 20250214211925
             title: 'OPPO Watch 1 手表 46mm 琉金',
             secondTitle: 'eSIM独立通信|运动健康伴侣',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1636362837311-_-d11109ddb9da451a969083f642f00bbb.png?_w_=320&_h_=320',
+            url: img41757,
             jsonUrl: '',
             video: '',
             seq: 20,
@@ -4394,11 +4475,10 @@ export default // 20250214211925
       },
       {
         id: 3030,
-        picStr:
-          'https://dsfs.oppo.com/archives/202206/20220606080635629df85759290.png?_w_=320&_h_=320',
+        picStr: img3030_1,
         title: '平板电脑',
         type: 'tablet',
-        url: 'https://dsfs.oppo.com/archives/202208/2022080109080462e72be810643.png?_w_=1028&_h_=604',
+        url: img3030_2,
         moduleCode: '701105',
         productDetailss: [
           {
@@ -4407,7 +4487,7 @@ export default // 20250214211925
             title: 'OPPO Pad  6GB+128GB 极光紫',
             secondTitle: '骁龙 870 处理器',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1654761851164-_-f831fed5237d4401a18cdeebc1d86e23.png?_w_=320&_h_=320',
+            url: img41938,
             jsonUrl: '',
             video: '',
             seq: 100,
@@ -4480,7 +4560,7 @@ export default // 20250214211925
             title: 'OPPO Pad  8GB+128GB 耀夜黑',
             secondTitle: '骁龙 870 处理器',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1658805204562-_-2b70fe81cc0f4e0286c52f4caba608ce.png?_w_=320&_h_=320',
+            url: img41939,
             jsonUrl: '',
             video: '',
             seq: 99,
@@ -4553,7 +4633,7 @@ export default // 20250214211925
             title: 'OPPO Pad Air 4GB+64GB 雾灰',
             secondTitle: '儿童教育助手',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1654758663352-_-19a319c0b703463a892523964079c6f3.png?_w_=320&_h_=320',
+            url: img41940,
             jsonUrl: '',
             video: '',
             seq: 98,
@@ -4630,7 +4710,7 @@ export default // 20250214211925
             title: 'OPPO Pad Air 4GB+128GB 星银',
             secondTitle: '儿童教育助手',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1654758663422-_-2d797fd127844dcd9a4f2feeae77149d.png?_w_=320&_h_=320',
+            url: img41941,
             jsonUrl: '',
             video: '',
             seq: 97,
@@ -4703,7 +4783,7 @@ export default // 20250214211925
             title: 'OPPO Pencil 自研手写笔 OPPO Pad',
             secondTitle: '仅适用 OPPO Pad',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/archives/202202/2022022403021462173316cc2cf.png?_w_=321&_h_=320',
+            url: img41942,
             jsonUrl: '',
             video: '',
             seq: 90,
@@ -4767,7 +4847,7 @@ export default // 20250214211925
             title: 'OPPO 智美生活 智能手写笔 OPPO Pad Air',
             secondTitle: '仅适用 OPPO Pad Air',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1653237556797-_-671afcb4945c47abb2a2b0e8cfffce7a.png?_w_=320&_h_=320',
+            url: img41943,
             jsonUrl: '',
             video: '',
             seq: 89,
@@ -4831,7 +4911,7 @@ export default // 20250214211925
             title: 'OPPO 智美生活 智能磁吸键盘 仅适用 OPPO Pad Air',
             secondTitle: '',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1661399246891-_-11a933014bfd4247959d458f8ac0d520.png?_w_=320&_h_=320',
+            url: img41944,
             jsonUrl: '',
             video: '',
             seq: 87,
@@ -4895,7 +4975,7 @@ export default // 20250214211925
             title: 'OPPO 智美生活 智能皮套 白色 仅适用 OPPO Pad Air',
             secondTitle: '智能休眠 | 磁吸支撑',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1653879717341-_-5820248c1296428c8519bbe8af34de58.png?_w_=320&_h_=320',
+            url: img41945,
             jsonUrl: '',
             video: '',
             seq: 85,
@@ -4959,7 +5039,7 @@ export default // 20250214211925
             title: 'OPPO 智美生活 平板钢化膜 高清 仅适用 OPPO Pad',
             secondTitle: '仅适用 OPPO Pad',
             thirdTitle: '',
-            url: 'https://dsfs.oppo.com/omp/1654483151257-_-6c5634da039f4996a317fefcce925018.png?_w_=320&_h_=320',
+            url: img41946,
             jsonUrl: '',
             video: '',
             seq: 84,
