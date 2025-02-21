@@ -12,7 +12,7 @@ OPPO 专区 轮播图下的那 8 个 分类可以点击跳转到 详情页，其
 
 ## 项目演示
 
-<img src="images/演示.gif" />
+<img src="assets/images/演示.gif" />
 
 ## 项目技术
 
@@ -26,14 +26,14 @@ OPPO 专区 轮播图下的那 8 个 分类可以点击跳转到 详情页，其
 
 ## 项目目录
 
-- assets/
-  - css/
+- assets
+  - css
     - global.scss -- 全局的样式重置
     - variables.scss -- 全局变量
   - cus-font/ -- iconfont 文件
-  - images/
+  - images
     - saveImg/ -- 备份图片
-- components/
+- components
   - appFooter.vue -- 尾部组件
   - appHeader.vue -- 头部组件
   - baseContent.vue -- 统一管理组件
@@ -60,8 +60,8 @@ OPPO 专区 轮播图下的那 8 个 分类可以点击跳转到 详情页，其
 - plugins
   - element-plus.client.js -- ElementPlus 中文化配置
 - public/ -- 静态目录，可以直接使用该目录下的图片
-- service/
-  - saveData/ -- 备份的 api 数据
+- service
+  - saveData -- 备份的 api 数据
     - detailInfo.ts -- 详情信息
     - homeInfo.ts -- OPPO 专区
     - homeIntelligentInfo.ts -- 智能硬件
@@ -69,7 +69,7 @@ OPPO 专区 轮播图下的那 8 个 分类可以点击跳转到 详情页，其
   - detail.ts -- 详情页 的接口请求
   - home.ts -- 首页等三个页面的 接口请求
   - index.ts -- useFetch() 接口封装
-- store/
+- store
   - detail.ts -- 详情页类型定义
   - home.ts -- 首页类型定义与 pinia 使用
 - app.vue
