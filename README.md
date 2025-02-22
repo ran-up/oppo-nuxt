@@ -72,6 +72,8 @@ OPPO 专区 轮播图下的那 8 个 分类可以点击跳转到 详情页，其
 - store
   - detail.ts -- 详情页类型定义
   - home.ts -- 首页类型定义与 pinia 使用
+- utils
+  - reqUnite.ts -- 请求数据和设置备用数据的抽离代码
 - app.vue
 - nuxt.config.ts
 - package-lock.json
