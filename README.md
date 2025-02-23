@@ -14,7 +14,8 @@ OPPO 专区 轮播图下的那 8 个 分类可以点击跳转到 详情页，其
 
 ## 项目演示
 
-<img src="assets/images/演示.gif" />
+<img src="./assets/images/演示.gif" />
+<img src="/images/演示.gif" />
 
 ## 项目技术
 
