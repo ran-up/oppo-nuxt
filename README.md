@@ -10,6 +10,8 @@ OPPO 专区 轮播图下的那 8 个 分类可以点击跳转到 详情页，其
 
 另外封装了 useFetch 进行数据请求，并且做了数据备份，即使后面的 api 失效了，会自动使用本地数据。
 
+详细的介绍可以前往: [网站](https://ran-up.github.io/2025/02/13/SSR/nuxt/nuxt%E7%AE%80%E6%98%93%E5%AE%9E%E6%88%98oppo%E5%AE%98%E7%BD%91/)
+
 ## 项目演示
 
 <img src="assets/images/演示.gif" />
